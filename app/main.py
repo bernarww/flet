@@ -25,5 +25,4 @@ def main(page: ft.Page):
         )
     )
 
-ft.app(target=main, view=ft.AppView.WEB_BROWSER, port=8550)
-#ft.app(target=main, view=ft.AppView.WEB_BROWSER, host='0.0.0.0', port=8550)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER, host='0.0.0.0', port=8550)
